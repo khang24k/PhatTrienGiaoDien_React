@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Group 9.png">
+        </div>
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search..." value="">            
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">What to cool</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Ingredients</a></li>
+                <li><a href="#">Occasions</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <button class="recipe-btn">Your Recipe Box</button>
+            <div class="user">
+                <img src="./img/Avatar 35.png">
+            </div>
+        </div>
+    </header>
+    <content>
+        <div class="container">
+            <aside class="filters">
+                <h3><i class="fa-solid fa-bars"></i> FILTERS</h3>
+    
+                <h4>Type</h4>
+                <div class="filter-group">
+                    <div class="group1">
+                        <label><input type="checkbox">Pan-fried</label>
+                        <label><input type="checkbox" checked>Grilled</label>
+                        <label><input type="checkbox">Sauteed</label>
+                        <label><input type="checkbox">Steamed</label>
+                    </div>
+
+                    <div class="group2">
+                        <label><input type="checkbox">Stir-fried</label>
+                        <label><input type="checkbox" checked>Roasted</label>
+                        <label><input type="checkbox">Baked</label>
+                        <label><input type="checkbox">Stewed</label>
+                    </div>
+                </div>
+    
+                <div class="filter-time">
+                    <h4>Time</h4>
+                    <input type="range" min="30" max="50" value="40">
+                    <span>30 minutes - 50 minutes</span>
+                </div>
+    
+                <h4 class="f4">Rating</h4>
+                <div class="filter-star">
+                    <div><input type="checkbox"> ⭐⭐⭐⭐⭐</div>
+                    <div><input type="checkbox"> ⭐⭐⭐⭐☆</div>
+                    <div><input type="checkbox" checked> ⭐⭐⭐☆☆</div>
+                    <div><input type="checkbox" checked> ⭐⭐☆☆☆</div>
+                </div>
+    
+                <button class="apply-btn">Apply</button>
+            </aside>
+    
+            <main class="no-results">
+                <h2>Sorry, no results were found for <span>"cakescascsa"</span></h2>
+                <img src="./img/Image 105.png" alt="No results image">
+                <p>We have all your Independence Day sweets covered.</p>
+    
+                <div class="suggestions">
+                    <span class="tag pink">Sweet Cake</span>
+                    <span class="tag purple">Black Cake</span>
+                    <span class="tag pink">Healthy food</span>
+                    <span class="tag green">Pozole Verde</span>
+                </div>
+            </main>
+        </div>
+    </content>
+
+    <footer>
+        <div class="footer-left">
+            <h3>About Us</h3>
+            <p>Welcome to our website, a wonderful place to explore and learn how to cook like a pro.</p>
+            <div class="footer-subscribe">
+                <input type="email" placeholder="Enter your email">
+                <button>Send</button>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="logo1">
+                    <img src="./img/Group 16.png">
+                </div>
+                <p>© 2025 Cheffiy Company | Terms of Service | Privacy Policy</p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-links">
+                <div class="footer-links">
+                    <h3>Learn more</h3>
+                    <ul>
+                        <li><a href="#">Our Cooks</a></li>
+                        <li><a href="#">See Our Features</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links shop-detail">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">Gift Subscription</a></li>
+                        <li><a href="#">Send Us Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Recipes</h3>
+                <ul>
+                    <li><a href="#">What to Cook This Week</a></li>
+                    <li><a href="#">Pasta</a></li>
+                    <li><a href="#">Dinner</a></li>
+                    <li><a href="#">Healthy</a></li>
+                    <li><a href="#">Vegetarian</a></li>
+                    <li><a href="#">Vegan</a></li>
+                    <li><a href="#">Christmas</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

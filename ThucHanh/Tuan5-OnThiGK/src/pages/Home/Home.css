@@ -1,0 +1,78 @@
+/* Tổng thể container */
+.home-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 40px 5%;
+}
+
+/* Phần bộ lọc (bên trái) */
+.home-left {
+    width: 25%;
+    text-align: center;
+}
+
+.home-left img {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Phần danh sách món ăn (bên phải) */
+.home-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tiêu đề và mô tả */
+.home-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home-text {
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Gallery món ăn */
+.food-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.food-gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .home-right {
+        width: 100%;
+    }
+}
