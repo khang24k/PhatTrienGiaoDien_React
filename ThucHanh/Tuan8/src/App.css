@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vp;
+    margin: 0;
+}
+
+.customContainer {
+    background: white;
+    width: 1300px;
+    height: auto;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    background-color: #2196F3;
+    padding: 5px;
+}
+
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+  }
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.menu {
+    grid-area: menu;
+    height: 700px;
+}
+
+.content {
+    grid-area: content;
+    display: grid;
+    grid-template-areas: 
+        "top top" 
+        "bottom bottom";
+    grid-template-rows: 1fr 3fr;
+    gap: 5px;
+
+}
+
+
+.footer {
+    grid-area: footer;
+}
+
+.topContent {
+    grid-area: top;
+    background-color: #2196F3;
+}
+
+.bottomContent {
+    grid-area: bottom;
+    background-color: blueviolet;
+}
