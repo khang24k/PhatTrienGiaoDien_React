@@ -9,13 +9,12 @@ import anh5 from "../component/image/hinh5.png";
 import anh6 from "../component/image/hinh6.png";
 
 const books = [
-  { id: 1, title: "Clean Code", author: "Robert C. Martin", price: 300, description: "A guide to writing clean code.", img: anh1 },
-  { id: 2, title: "The Pragmatic Programmer", author: "Andy Hunt", price: 250, description: "Best practices for software development.", img: anh2 },
-  { id: 3, title: "The Pragmatic Programmer", author: "Andy Hunt", price: 250, description: "Best practices for software development.", img: anh3 },
-  { id: 4, title: "The Pragmatic Programmer", author: "Andy Hunt", price: 250, description: "Best practices for software development.", img: anh4 },
-  { id: 5, title: "The Pragmatic Programmer", author: "Andy Hunt", price: 250, description: "Best practices for software development.", img: anh5 },
-  { id: 6, title: "The Pragmatic Programmer", author: "Andy Hunt", price: 250, description: "Best practices for software development.", img: anh6 },
-  
+  { id: 1, title: "Nhà Giả Kim", author: "Paulo Coelho", price: 300000, img: anh1 },
+  { id: 2, title: "Đắc Nhân Tâm", author: "Dale Carnegie", price: 250000, img: anh2 },
+  { id: 3, title: "Bài Giảng Cuối Cùng", author: "Randy Pausch", price: 200000, img: anh3 },
+  { id: 4, title: "Từ Tốt Đến Vĩ Đại", author: "Jim Collins", price: 280000, img: anh4 },
+  { id: 5, title: "Peter Pan", author: "J. M. Barrie", price: 270000, img: anh5 },
+  { id: 6, title: "Hoàng Tử Bé", author: "Antoine de Saint-Exupéry", price: 220000, img: anh6 },
 ];
 
 const BookDetail = () => {

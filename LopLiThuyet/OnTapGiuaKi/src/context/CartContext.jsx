@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import { v4 as uuidv4 } from 'uuid'; // Cài đặt: npm install uuid
+import { v4 as uuidv4 } from 'uuid'; //npm install uuid
 
 const CartContext = createContext();
 
@@ -11,7 +11,7 @@ export const CartProvider = ({ children }) => {
   const addToCart = (book) => {
     const cartItem = {
       ...book,
-      cartItemId: uuidv4(), // Thêm một ID duy nhất
+      cartItemId: uuidv4(), // add ID duy nhất
     }
     setCart((prevCart) => [...prevCart, cartItem]);
   };

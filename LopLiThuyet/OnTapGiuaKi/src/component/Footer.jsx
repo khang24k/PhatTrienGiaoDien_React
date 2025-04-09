@@ -7,9 +7,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-12">
             <p className="mb-0">
-              <strong>Tên:</strong> Phạm Văn Khang <br />
-              <strong>Lớp:</strong> ĐHKTPM18B <br />
-              <strong>Mã sinh viên:</strong> 22639741
+            Phạm Văn Khang - DHKTPM18B - 22639741
             </p>
           </div>
         </div>

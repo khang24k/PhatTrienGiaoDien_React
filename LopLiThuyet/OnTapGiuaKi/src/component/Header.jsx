@@ -13,7 +13,7 @@ function Header() {     //sticky-top dùng để cho cái header cuộn theo tha
           </li>
           <li className="nav-item mx-3">
             <Link className="nav-link text-dark fw-semibold" to="/Homepage">
-              Trang danh sách sách
+              Danh sách sách
             </Link>
           </li>
           <li className="nav-item mx-3">
