@@ -3,20 +3,21 @@
 }
 
 .overview-header {
-  display: flex;
-  align-items: center; /* Vertically align items in the center */
-  gap: 8px; /* Add some space between the image and the heading */
+  display: flex; /* Sử dụng flexbox để sắp xếp các phần tử theo hàng ngang */
+  align-items: center; /* Căn chỉnh các phần tử theo chiều dọc ở giữa */
+  gap: 8px; /* Khoảng cách giữa image và h2 */
+  margin-bottom: 20px; /* Thêm khoảng cách phía dưới header nếu cần */
 }
 
 .overview-header img {
-  width: 20px; /* Adjust as needed */
-  height: 20px; /* Adjust as needed */
+  width: 20px; /* Điều chỉnh kích thước ảnh theo nhu cầu */
+  height: 20px; /* Điều chỉnh kích thước ảnh theo nhu cầu */
 }
 
 .overview-header h2 {
-  margin: 0; /* Remove default heading margins if necessary */
+  margin-left: 0; /* Loại bỏ margin mặc định bên trái của h2 */
   font-weight: 600;
-  color: #2d3748; /* Keep the heading color */
+  color: black;
 }
 
 .overview-cards-container {
