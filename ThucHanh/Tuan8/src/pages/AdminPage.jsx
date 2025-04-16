@@ -4,6 +4,7 @@ import './AdminPage.css'; // Đảm bảo bạn có file CSS này
 import Nav from "../nav/Nav";
 import Header from "../header/Header";
 import Overview from "../overview/Overview";
+import Detailed from "../detailed/Detailed";
 
 function AdminPage() {
   return (
@@ -17,6 +18,7 @@ function AdminPage() {
         </div>
         <div className="content">
           <Overview />
+          <Detailed />
         </div>
       </div>
     </div>
