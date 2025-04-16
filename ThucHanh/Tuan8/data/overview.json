@@ -1,0 +1,6 @@
+
+[
+  { "label": "Turnover", "value": "$92,405", "trend": "5.39%", "icon": "./src/assets/Button 1509.png" },
+  { "label": "Profit", "value": "$32,218", "trend": "5.39%", "icon": "./src/assets/Button 1529.png" },
+  { "label": "New customer", "value": "298", "trend": "6.84%", "icon": "./src/assets/Button 1530.png" }
+]

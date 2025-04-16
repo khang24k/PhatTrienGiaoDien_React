@@ -1,0 +1,26 @@
+.overview-section {
+  padding: 20px;
+}
+
+.overview-header {
+  display: flex;
+  align-items: center; /* Vertically align items in the center */
+  gap: 8px; /* Add some space between the image and the heading */
+}
+
+.overview-header img {
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+}
+
+.overview-header h2 {
+  margin: 0; /* Remove default heading margins if necessary */
+  font-weight: 600;
+  color: #2d3748; /* Keep the heading color */
+}
+
+.overview-cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép các thẻ xuống dòng khi không đủ chỗ trên một hàng */
+  justify-content: space-between; /* Phân phối khoảng trống đều nhau giữa các thẻ */
+}

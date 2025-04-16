@@ -1,0 +1,61 @@
+.overview-card {
+  background-color: #ffe6f0;
+  width: 350px;
+  /* Light pink background */
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Align text to the left */
+  position: relative;
+  /* For positioning the icon */
+}
+
+.overview-label {
+  color: #333;
+  /* Dark grey label */
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.overview-value {
+  color: #000;
+  /* Black value */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.overview-trend {
+  color: #4CAF50;
+  /* Green for positive trend */
+  font-size: 12px;
+}
+
+.up-arrow {
+  color: #4CAF50;
+  /* Green up arrow */
+  margin-right: 5px;
+}
+
+.overview-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 1px solid #e0b0be;
+  /* Light pink border for the icon container */
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overview-icon img {
+  width: 20px;
+  /* Adjust icon size as needed */
+  height: 20px;
+  display: block;
+  /* Prevent extra space below image */
+}

@@ -2,19 +2,21 @@ import React from "react";
 import './AdminPage.css'; // Đảm bảo bạn có file CSS này
 
 import Nav from "../nav/Nav";
+import Header from "../header/Header";
+import Overview from "../overview/Overview";
 
 function AdminPage() {
   return (
     <div className="admin-page">
       <div className="nav-site">
-        <Nav/>
+        <Nav />
       </div>
       <div className="main-site">
         <div className="header">
-          {/* Khu vực cho header */}
+          <Header />
         </div>
         <div className="content">
-          {/* Khu vực cho nội dung chính */}
+          <Overview />
         </div>
       </div>
     </div>
