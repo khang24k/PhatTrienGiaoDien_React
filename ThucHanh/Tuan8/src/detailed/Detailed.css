@@ -164,3 +164,116 @@
     object-fit: cover;
     /* Đảm bảo ảnh không bị méo */
 }
+
+
+/* Style cho lớp nền mờ bao phủ toàn màn hình */
+.modal {
+    position: fixed;
+    /* Cố định vị trí, không bị scroll ảnh hưởng */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Nền đen mờ */
+    display: flex;
+    /* Sử dụng flexbox để căn giữa nội dung */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    z-index: 1000;
+    /* Đảm bảo modal ở trên các phần tử khác */
+}
+
+/* Style cho khung nội dung của modal */
+.modal-content {
+    background-color: #fff;
+    /* Màu nền trắng */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /* Hiệu ứng đổ bóng */
+    width: 90%;
+    /* Chiều rộng (có thể điều chỉnh) */
+    max-width: 600px;
+    /* Chiều rộng tối đa */
+}
+
+/* Style cho tiêu đề modal */
+.modal-content h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style cho label của các trường */
+.modal-content label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Style cho các ô input (text, number) và select */
+.modal-content input[type="text"],
+.modal-content input[type="number"],
+.modal-content select {
+    width: calc(100% - 16px);
+    /* Để có khoảng cách với border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    background-color: white;
+    /* Màu nền trắng cho input */
+    color: #333;
+    /* Màu chữ trong input */
+}
+
+/* Style cho container chứa các nút hành động (Save, Cancel) */
+.modal-actions {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    /* Căn các nút về bên phải */
+    gap: 15px;
+}
+
+/* Style cho các nút hành động */
+.modal-actions button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    /* Hiệu ứng hover mượt mà */
+}
+
+/* Style riêng cho nút Save */
+.modal-actions button:first-child {
+    background-color: #28a745;
+    /* Màu xanh lá cây */
+    color: white;
+}
+
+.modal-actions button:first-child:hover {
+    background-color: #218838;
+}
+
+/* Style riêng cho nút Cancel */
+.modal-actions button:last-child {
+    background-color: #dc3545;
+    /* Màu đỏ */
+    color: white;
+}
+
+.modal-actions button:last-child:hover {
+    background-color: #c82333;
+}
